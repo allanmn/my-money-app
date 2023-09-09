@@ -3,3 +3,7 @@
     bottom: 0px;
     width: 100%;
 }
+
+.treeview-menu.menu-open {
+    width: 100%;
+}
