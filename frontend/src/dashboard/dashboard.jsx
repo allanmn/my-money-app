@@ -1,7 +1,18 @@
-import React from "react";
+import React, { Component } from "react";
+import ContentHeader from "../commom/template/content-header";
+import Content from "../commom/template/content";
 
-export default props => (
-    <div>
-        <h1>Dashboard</h1>
-    </div>
-);
+class Dashboard extends Component {
+    render() {
+        return (
+            <div>
+                <ContentHeader title='Dashboard' small='Versão 1.0'/>
+                <Content>
+                    Dashboard
+                </Content>
+            </div>
+        );
+    }
+}
+
+export default Dashboard;
